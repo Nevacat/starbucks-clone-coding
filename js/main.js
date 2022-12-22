@@ -1,3 +1,4 @@
+//// Header Sub Menu Search
 const searchEl = document.querySelector('.search');
 const searchInputEl = document.querySelector('.search input');
 
@@ -15,6 +16,23 @@ searchInputEl.addEventListener('blur',function(){
   searchEl.setAttribute('placeholder','');
 });
 
+//// Header Badges
+const badgeEl = document.querySelector('header .badges');
+
+window.addEventListener('scroll', _.throttle(
+  function(){
+    if (window.scrollY>500){
+      gsap.to(badgeEl, 0.6, {
+        opacity:0,
+        display:"none"
+      })
+    } else {
+      gsap.to(badgeEl, 0.6, {
+        opacity:1,
+        display:"block"
+      })
+    }
+  },300))
 
 
 
