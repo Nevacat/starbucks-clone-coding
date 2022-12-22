@@ -35,5 +35,15 @@ window.addEventListener('scroll', _.throttle(
   },300))
 
 
+  //// VISUAL FADE-IN
+
+  const fadeEls = document.querySelectorAll('.visual .fade-in');
+  
+  fadeEls.forEach(function(fadeEl, index){
+    gsap.to(fadeEl, 1,{
+      delay:(index+1) * 0.5,
+      opacity: 1
+    });
+  });
 
 
