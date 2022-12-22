@@ -1,0 +1,21 @@
+const searchEl = document.querySelector('.search');
+const searchInputEl = document.querySelector('.search input');
+
+searchEl.addEventListener('click',function(){
+  searchInputEl.focus();
+});
+
+searchInputEl.addEventListener('focus',function(){
+  searchEl.classList.add('focused');
+  searchEl.setAttribute('placeholder','통합검색');
+});
+
+searchInputEl.addEventListener('blur',function(){
+  searchEl.classList.remove('focused');
+  searchEl.setAttribute('placeholder','');
+});
+
+
+
+
+
