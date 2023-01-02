@@ -54,7 +54,7 @@ new Swiper('.notice-line .swiper-container',{
   loop: true
 });
 
-//// PROMOTION SWIPER
+////PROMOTION SWIPER
 
 new Swiper('.promotion .swiper-container',{
   slidesPerView: 3,
@@ -90,6 +90,18 @@ promotionToggleBtn.addEventListener('click',function(){
   }
 })
 
+////AWARDS
+new Swiper('.awards .swiper-container',{
+  autoplay:true,
+  loop:true,
+  spaceBetween: 30,
+  slidesPerView:5,
+  navigation:{
+    prevEl:'.awards .swiper-prev',
+    nextEl:'.awards .swiper-next'
+  }
+})
+
 ////FLOATING ICON
 
 function random(min, max){
@@ -107,6 +119,8 @@ function floatingObject(selector,delay,size){
 floatingObject('.floating1', 1, 15);
 floatingObject('.floating2', 0.5, 15);
 floatingObject('.floating3', 1.5, 20);
+
+////SCROLL MAGIC
 
 const spyEls = document.querySelectorAll('section.scroll-spy');
 spyEls.forEach(function(spyEl){
