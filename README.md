@@ -12,18 +12,24 @@ html, css 및 vanilla javascript를 활용한 스타벅스 클론 홈페이지�
 
 사용언어 : `html`, `CSS`, `JAVASCRIPT`
 
-##페이지 소개
+## 페이지 소개
 
 ### MAIN
-![스크린샷(26)](https://user-images.githubusercontent.com/110139098/210203698-8fdf8be8-9613-4696-ac01-c55550bd7779.png)
-![스크린샷(28)](https://user-images.githubusercontent.com/110139098/210203725-808b6322-5d30-40df-ad62-9e83f914c11f.png)
+![스크린샷_20230102_042944](https://user-images.githubusercontent.com/110139098/210204175-bd983c50-eaa4-42cd-a28d-ee2f56b2a754.png)
+![스크린샷_20230102_043000](https://user-images.githubusercontent.com/110139098/210204187-2b2c3dc4-b325-4b51-b4a5-3b9d52917d76.png)
+
+---
 
 ### SECTION
-![스크린샷(27)](https://user-images.githubusercontent.com/110139098/210203713-ec2d0931-fd5f-41a1-a48c-181f6c5f4139.png)
-![스크린샷(29)](https://user-images.githubusercontent.com/110139098/210203734-3bcfbf9e-a164-4a72-93fd-21c110eeb5a6.png)
-![스크린샷(30)](https://user-images.githubusercontent.com/110139098/210203758-d2bfa0ac-4d4a-4f1e-afca-492c4b43549d.png)
-![스크린샷(31)](https://user-images.githubusercontent.com/110139098/210203765-80777876-07c0-4c38-96ee-6d900d5b7faf.png)
-![스크린샷(32)](https://user-images.githubusercontent.com/110139098/210203789-9e25426b-b318-48f2-b759-b43dd36c1e5e.png)
+![스크린샷_20230102_043019](https://user-images.githubusercontent.com/110139098/210204194-40754460-1b6b-4e70-a6a8-4af5b132a05e.png)
+![스크린샷_20230102_043033](https://user-images.githubusercontent.com/110139098/210204209-9f9b6b50-ea6a-44f7-92ef-aad29b1595aa.png)
+![스크린샷_20230102_043056](https://user-images.githubusercontent.com/110139098/210204231-8271fbe2-50e2-4452-9694-94d3cf13422c.png)
+![스크린샷_20230102_043110](https://user-images.githubusercontent.com/110139098/210204254-6c8dc786-bfa7-441a-9953-828384a0f898.png)
+![스크린샷_20230102_043131](https://user-images.githubusercontent.com/110139098/210204299-1775ea6c-63f9-455f-ba72-27a63c1492b6.png)
 
-###FOOTER
-![스크린샷(33)](https://user-images.githubusercontent.com/110139098/210203827-e89fa37b-dc56-419c-a4d6-dd5d02363b0e.png)
+---
+
+### FOOTER
+![스크린샷_20230102_043119](https://user-images.githubusercontent.com/110139098/210204275-40ddb2da-d83f-43ba-a56f-16dd73fe2bd5.png)
+
+
