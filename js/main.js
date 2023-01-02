@@ -18,6 +18,7 @@ searchInputEl.addEventListener('blur',function(){
 
 //// Header Badges
 const badgeEl = document.querySelector('header .badges');
+const toTopEl = document.querySelector('#to-top');
 
 window.addEventListener('scroll', _.throttle(
   function(){
@@ -25,15 +26,26 @@ window.addEventListener('scroll', _.throttle(
       gsap.to(badgeEl, 0.6, {
         opacity:0,
         display:"none"
-      })
+      });
+      gsap.to(toTopEl, .2, {
+        x: 0
+      });
     } else {
       gsap.to(badgeEl, 0.6, {
         opacity:1,
         display:"block"
-      })
+      });
+      gsap.to(toTopEl, .2,{
+        x: 100
+      });
     }
   },300))
+  toTopEl.addEventListener('click', function(){
+    gsap.to(window, .7, {
+      scrollTo: 0
 
+    });
+  })
 
   //// VISUAL FADE-IN
 
